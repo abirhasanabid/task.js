@@ -6,6 +6,6 @@ var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
 let str = '';
 
 for (const number of numbers) {
-    str += number
+    str.concat(number);
 }
 console.log(str);
